@@ -1,0 +1,8 @@
+{
+  "name": "bravia-mqtt-aws",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/teitei-tk/bravia-mqtt-aws.git",
+  "author": "teitei-tk <teitei.tk@gmail.com>",
+  "license": "Apache-2.0"
+}
