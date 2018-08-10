@@ -5,19 +5,25 @@ Control Sony Bravia TV with MQTT over WebSocket using AWS IoT Device SDK
 this repository is a using a monorepo pattern with lerna and yarn workspace.
 put a each package in the ```packages``` directory
 
-```bash
+```
+bravia-mqtt-aws
+| - tsconfig.json
+| - tsconfig.base.json
 | - README.md
 | - lerna.json
 | - package.json
-|
 | - packages/
 |   | - core/
-|   |    |-- packge.json
+|   |    |-- package.json
+|   |    |-- tsconfig.build.json
+|   |    |-- tsconfig.json
 |   |    |-- lib/
 |   |    |    |- index.ts
 |   |    |
 |   | - subscribe/
-|   |    |-- packge.json
+|   |    |-- package.json
+|   |    |-- tsconfig.build.json
+|   |    |-- tsconfig.json
 |   |    |-- lib/
 |   |    |    |- index.ts
 |   |    |

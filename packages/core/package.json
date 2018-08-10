@@ -4,6 +4,7 @@
   "main": "lib/index.ts",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.5.7",
     "typescript": "^3.0.1"
   }
 }
