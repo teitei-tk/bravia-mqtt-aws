@@ -1,19 +1,9 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "lib": [ "es5", "es2015.promise", "esnext" ],
-    "target": "es5",
-    "outDir": "./build",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "pretty": true,
-    "moduleResolution": "node",
-    "declaration": true
-  },
-  "exclude": [
-    "node_modules/",
-    "**/*.spec.ts",
-    "./build/**/*"
-  ]
+    "baseUrl": "./packages",
+    "paths": {
+      "@bravia/*": ["./*/lib"]
+    }
+  }
 }
