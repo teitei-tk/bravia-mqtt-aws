@@ -2,7 +2,7 @@
 Control Sony Bravia TV with MQTT over WebSocket using AWS IoT Device SDK
 
 ## Repository Structure
-this repository is a using a monorepo pattern with lerna and yarn workspace.
+this repository is a using a monorepo pattern with lerna and yarn workspace.  
 put a each package in the ```packages``` directory
 
 ```
