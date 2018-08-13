@@ -29,6 +29,11 @@ bravia-mqtt-aws
 |   |    |
 ```
 
+## Development
+see in boilerplate/README.md
+
+* https://github.com/teitei-tk/bravia-mqtt-aws/blob/master/boilerplate/README.md
+
 
 ## Setup
 ### setup aws-cli
