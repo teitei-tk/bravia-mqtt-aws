@@ -4,6 +4,7 @@ import { CertificateClient } from "../lib";
 describe("@teitei-tk/bravia-aws-package", () => {
   let client: CertificateClient;
   beforeEach(() => {
+    // TODO: generate and destroy empty file
     client = new CertificateClient();
   });
 
