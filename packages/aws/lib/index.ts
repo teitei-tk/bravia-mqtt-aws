@@ -1,2 +1,3 @@
-const aws = "aws";
-export { aws as AWS };
+import { CertificateClient } from "./certificate";
+
+export { CertificateClient };
