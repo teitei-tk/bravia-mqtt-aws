@@ -1,2 +1,2 @@
-const core = "core";
-export { core as Core };
+const aws = "aws";
+export { aws as AWS };

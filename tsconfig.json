@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "@bravia/*": ["./*/lib"]
+      "@teitei-tk/*": ["./*/lib", "./*/__tests__"]
     }
   }
 }
