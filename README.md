@@ -1,6 +1,8 @@
 # bravia-mqtt-aws
 Control Sony Bravia TV with MQTT over WebSocket using AWS IoT Device SDK
 
+[![CircleCI](https://circleci.com/gh/teitei-tk/bravia-mqtt-aws/tree/master.svg?style=svg)](https://circleci.com/gh/teitei-tk/bravia-mqtt-aws/tree/master)
+
 ## Repository Structure
 this repository is a using a monorepo pattern with lerna and yarn workspace.  
 put a each package in the ```packages``` directory
