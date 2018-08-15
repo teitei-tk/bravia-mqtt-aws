@@ -1,11 +1,15 @@
 {
-  "name": "@bravia/boilerplate",
+  "name": "@teitei-tk/bravia-aws-package",
   "version": "1.0.0",
   "main": "lib/index.ts",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
+  "files": [
+    "build/"
+  ],
   "devDependencies": {
     "@types/jest": "^23.3.1",
     "@types/node": "^10.5.7",
