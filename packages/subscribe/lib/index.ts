@@ -1,3 +1,2 @@
-import { Core } from "@bravia/core";
-
-console.log(Core);
+import { Subscriber } from "./subscriber";
+export { Subscriber };
