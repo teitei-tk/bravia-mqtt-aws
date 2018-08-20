@@ -1,9 +1,10 @@
 import * as events from "events";
-import { Subscriber, SubscriberInterface } from "../lib/subscriber";
+import { Subscriber } from "../lib/subscriber";
+import { SubscribeProviderInterface } from "../lib/provider";
 
 const testTopicName = "topic/1";
 
-class TestSubscriberClient implements SubscriberInterface {
+class TestSubscriberClient implements SubscribeProviderInterface {
   subscribe(subscribeName, options): Promise<{ result: boolean }> {
     return Promise.resolve({ result: true });
   }

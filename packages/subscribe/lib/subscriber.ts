@@ -1,17 +1,9 @@
-export interface QOS {
-  qos: 0 | 1;
-}
-
-export interface SubscriberInterface {
-  subscribe(subscribeName: string, options: QOS): Promise<{ result: boolean }>;
-  connect(): Promise<{ result: boolean }>;
-  message(): Promise<{ topic: string; payload: Buffer }>;
-}
+import { SubscribeProviderInterface } from "./provider";
 
 export class Subscriber {
-  client: SubscriberInterface;
+  client: SubscribeProviderInterface;
 
-  constructor(client?: SubscriberInterface | null) {
+  constructor(client?: SubscribeProviderInterface | null) {
     this.client = client;
   }
 

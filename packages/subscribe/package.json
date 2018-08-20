@@ -17,7 +17,7 @@
     "typescript": "^3.0.1"
   },
   "dependencies": {
-    "@teitei-tk/bravia-aws-package": "^0.0.1"
+    "@teitei-tk/bravia-aws": "^0.0.1"
   },
   "jest": {
     "moduleFileExtensions": [
